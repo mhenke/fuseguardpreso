@@ -13,7 +13,7 @@
 	</cfloop>
 </cfif>
     <h1>Dictionary Attack Filter</h1>
-	<p>Detects multiple requests from the same client which contain <a href="A3-BrokenSessionManagement.cfm">passwords</a>. Once a specified number of password guesses is reached the filter will block or log subsequent requests from that client. See the CFC reference for configurable settings.</p>
+	<p>Detects multiple requests from the same client which contain passwords. Once a specified number of password guesses is reached the filter will block or log subsequent requests from that client. See the CFC reference for configurable settings.</p>
 	<hr>
 		<h2>Example</h2>
 		<p>Submitting this form will spawn 10 posts looping through commom passwords like a Dictionary Attack.</p>

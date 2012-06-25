@@ -12,11 +12,11 @@
 			  <li><a href="XSS.cfm">XSS</a></li>
 			  <li><a href="SessionHijacking.cfm">Session Hijacking</a></li>
 			  <li><a href="URLSessionID.cfm">URL Session ID</a></li>
-			  <li><a href="ForeignPost.cfm">Foreign Post</a></li>
+			  <!--- <li><a href="ForeignPost.cfm">Foreign Post</a></li> --->
               <li><a href="MaliciousFileUploads.cfm">Malicious File Uploads</a></li>
 			  <li><a href="QueryStringLength.cfm">Query String Length</a></li>
 			  <li><a href="IDValidation.cfm">ID Validation</a></li>
-			  <li><a href="DictionaryAttack.cfm">Dictionary Attack</a></li>
+			  <!--- <li><a href="DictionaryAttack.cfm">Dictionary Attack</a></li> --->
 			  <li><a href="Custom.cfm">Custom</a></li>
 			  <li class="nav-header">More FuseGuard Information</li>
               <li><a href="http://foundeo.com/security/fuseguard/docs/2.0/">Documentation (external)</a></li>

@@ -43,14 +43,14 @@
           </div>
           <div class="row-fluid">
             <div class="span4">
-              <h2>SQL Injection</h2>
-              <p>The SQL Injection Filter blocks against several SQL injection attack vectors.</p>
-              <p><a class="btn btn-info" href="SQLInjection.cfm">View examples &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
               <h2>XSS</h2>
               <p>The XSS Filter blocks several cross site scripting attack vectors. This filter returns multiple threat levels based on the possible presence of a cross site scripting request.</p>
               <p><a class="btn btn-info" href="XSS.cfm">View examples &raquo;</a></p>
+            </div><!--/span-->
+			<div class="span4">
+              <h2>SQL Injection</h2>
+              <p>The SQL Injection Filter blocks against several SQL injection attack vectors.</p>
+              <p><a class="btn btn-info" href="SQLInjection.cfm">View examples &raquo;</a></p>
             </div><!--/span-->
             <div class="span4">
               <h2>Session Hijacking</h2>
@@ -65,8 +65,8 @@
               <p><a class="btn btn-info" href="URLSessionID.cfm"">View examples &raquo;</a></p>
             </div><!--/span-->
             <div class="span4">
-              <h2>Foreign Post</h2>
-              <p>This filter will block HTTP POST operations which have referrers that differ from the current template.</p>
+              <h2>ID Validation Filter</h2>
+			<p>The ID Validation Filter has a simple concept but can be very effective in blocking many attacks. This filter inspects the value of variables whose name ends with id and ensures that they are a valid id. By default it allows any string containing alphanumeric characters, underscore, and dash. You can configure this filter to only allow integer id values, or UUID values created with CreateUUID. Consult the CFC reference for details.</p>
               <p><a class="btn btn-info" href="ForeignPost.cfm">View examples &raquo;</a></p>
             </div><!--/span-->
             <div class="span4">

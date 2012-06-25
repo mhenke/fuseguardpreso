@@ -7,7 +7,7 @@
 </cfquery>
 
       <h1>SQL Injection</h1>
-	<p>The SQL Injection Filter blocks against several SQL <a href="A1-Injection.cfm">injection</a> attack vectors. </p>
+	<p>The SQL Injection Filter blocks against several SQL injection attack vectors. </p>
 	<hr>
 		<h2>Output</h2>
 		<cfoutput query="getUser">

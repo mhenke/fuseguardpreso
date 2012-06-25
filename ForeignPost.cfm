@@ -26,7 +26,7 @@
 </cfquery>
 
       <h1>Foreign Post Filter</h1>
-      <p>This filter will block HTTP POST operations which have referrers that differ from the current template. You may not want to enable this filter if other web sites submit HTTP form posts cross domain to your application. This filter can help mitigate the effects of some <a href="A2-CrossSiteScripting.cfm">Cross Site Scripting</a> and <a href="A5-CrossSiteRequestForgery.cfm">Cross Site Request Forgery</a> attacks.</p>
+      <p>This filter will block HTTP POST operations which have referrers that differ from the current template. You may not want to enable this filter if other web sites submit HTTP form posts cross domain to your application. This filter can help mitigate the effects of some Cross Site Scripting and Cross Site Request Forgery attacks.</p>
 	<hr>
 		<h2>Example</h2>
 		<p>

@@ -5,7 +5,7 @@
 	
 	
       <h1>URL Session ID Filter</h1>
-      <p>This filter blocks requests that pass <a href="A3-BrokenSessionManagement.cfm">session</a> id in the URL (such as cfid, cftoken, or jsessionid) as this may allow for session hijacking. An authenticated user may unknowingly email, im, or otherwise make public a url granting anyone who visits the url their authentication rights. It is recommended that you don't place session identifiers in the url, this is done automatically with cflocation unless you specify the attribute addtoken="false"
+      <p>This filter blocks requests that pass session id in the URL (such as cfid, cftoken, or jsessionid) as this may allow for session hijacking. An authenticated user may unknowingly email, im, or otherwise make public a url granting anyone who visits the url their authentication rights. It is recommended that you don't place session identifiers in the url, this is done automatically with cflocation unless you specify the attribute addtoken="false"
 If your application requres support for disabled cookies we recommend that you encrypt an expiring token containing the session id's, the user's ip, user agent, and a secret token.</p>
 		<hr>
 		<h2>Example</h2>
