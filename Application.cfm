@@ -5,4 +5,5 @@
 		<cfinvokeargument name="configurator" value="LogOnlyConfigurator">	
 	</cfinvoke>
 </cfif>
-<cfset application.fuseguard.processRequest()> --->
+<cfset application.fuseguard.processRequest()> 
+--->
