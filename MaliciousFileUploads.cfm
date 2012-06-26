@@ -10,7 +10,7 @@
 		    <cffile action = "upload" 
 		        fileField = "FileContents" 
 		        destination = "#ExpandPath( "./" )#/upload" 
-		        accept = "text/plain" 
+		        accept = "image/gif,image/png,application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,image/jpeg" 
 		        nameConflict = "overwrite">
 		 </cfif>
 		 
